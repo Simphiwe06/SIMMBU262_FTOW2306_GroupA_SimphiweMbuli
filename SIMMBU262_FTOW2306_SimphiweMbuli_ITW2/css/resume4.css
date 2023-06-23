@@ -1,0 +1,87 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles  to the header section */
+header {
+    background-color: rosybrown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Apply these styles to headings in the header section */
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Apply style  to the section container */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Apply styles to the aside section */
+aside {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Apply styles to the profile image */
+aside img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* Apply sytles to the unordered list */
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Apply style to the list item links */
+aside li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: dimgray;
+}
+
+/* Apply style to article section */
+article {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Apply styles to the headings within the articles section */
+article h2,
+article h3 {
+    margin-top: 0;
+}
+
+/* Apply stytles to the footer section */
+footer {
+    background-color: darkgray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Apply styles to the links within the footer section */
+footer a {
+    color: white;
+    text-decoration: none;
+}
