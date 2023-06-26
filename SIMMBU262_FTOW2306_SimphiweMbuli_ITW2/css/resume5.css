@@ -2,6 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: lightgrey;
+    padding: 20px;
+    margin: 0px;
 }
 
 /* Apply styles  to the header section */
@@ -9,21 +11,31 @@ header {
     background-color: rosybrown;
     color: white;
     text-align: center;
+    padding: 20px;
+    
 }
 
 /* Apply these styles to headings in the header section */
 header h1 {
+    margin: 0;
     font-size: 40px;
 }
 
 header h2 {
+    margin: 0;
     font-size: 20px;
+}
+
+/* Apply style to the section container */
+section {
+    padding: 20px;
 }
 
 /* Apply styles to the profile image */
 aside img {
     width: 400px;
     height: 250px;
+    border-radius: 10px;
 }
 
 /* Apply style to the list item links */
@@ -32,6 +44,12 @@ aside li a {
     color: dimgray;
 }
 
+/* Apply style to the article section */
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
 
 /* Apply stytles to the footer section */
 footer {
@@ -39,6 +57,8 @@ footer {
     color: white;
     font-weight: bold;
     text-align: center;
+    height: 150px;
+    margin-top: 20px;
 }
 
 /* Apply styles to the links within the footer section */
