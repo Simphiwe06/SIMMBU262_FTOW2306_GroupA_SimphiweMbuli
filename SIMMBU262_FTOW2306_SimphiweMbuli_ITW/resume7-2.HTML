@@ -2,19 +2,26 @@
 <html>
     <head>
         <link rel="icon" href="/simphiwe-mbuli.jpg.jpg" type="favicon.ico">
-        <title>resume5</title>
+        <title><Resume7-1></Resume7-1></title>
         <link rel="stylesheet" href="./css/resume5.css">
 
     </head>
     <body>
-        <header>
-            <h1>Simphiwe Mbuli</h1>
-            <h2>An introductory personal statement.</h2> 
-        </header>  
+        <div class="hero">
+            <header>
+                <h1>Simphiwe Mbuli</h1>
+                <h2>An introductory personal statement.</h2> 
+            </header> 
+        </div>
+         
         <section>
             <aside>
-                <img src="/simphiwe-mbuli.jpg.jpg"  height="500px" width="350px" alt="Simphiwe Mbuli">
-        
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="./Images/laptop-sized.jpg">
+                    <source media="(min-width: 769px) and (max-width: 1023px)" srcset="./Images/tablet-sized.jpg">
+                    <img src="./Images/phone-sized.jpg" alt="Simphiwe Mbuli">
+                </picture>
+                
                 <ul>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#experience">Experience</a></li>
@@ -56,6 +63,24 @@
         
         <footer>
             <h2 id="contact">Contact</h2>
+            <form action="https://formsubmit.co/simphiwembuli06@gmail.com" method="POST">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="" selected disabled>Select a subject</option>
+                    <option value="Inquiry">Inquiry</option>
+                    <option value="Job Opportunity">Job Opportunity</option>
+                    <option value="Feedback">Feedback</option>
+                </select>
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+
             <p>Email: <a href="mailto:simphiwembuli06@gmail.com">simphiwembuli06@gmail.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/simphiwe-mbuli-5004aa246" target="_blank">Simphiwe Mbuli</a></p>       
         </footer>
