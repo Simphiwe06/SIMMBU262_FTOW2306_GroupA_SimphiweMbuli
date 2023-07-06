@@ -1,0 +1,29 @@
+.hero {
+    background-image: url(simphiwe-mbuli.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-color: rosybrown;
+}
+
+.hero-content {
+    height: 80vh; /* Set the hero content height to fill the viewport */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+hero-content header {
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    font-weight: normal;
+}

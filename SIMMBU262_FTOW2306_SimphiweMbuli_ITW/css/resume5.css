@@ -38,11 +38,13 @@ aside img {
     border-radius: 50%;
 }
 
+
 /* Apply style to the list item links */
-aside li a {
+nav {
     font-weight: bold;
     color: dimgray;
 }
+    
 
 /* Apply style to the article section */
 article {
