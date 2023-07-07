@@ -8,10 +8,10 @@ body {
 
 /* Apply styles  to the header section */
 header {
-    background-color: rosybrown;
-    color: white;
+    background-color: rgb(189, 158, 158);
+    color: rgb(39, 36, 36);
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     
 }
 
@@ -55,7 +55,7 @@ article {
 
 /* Apply stytles to the footer section */
 footer {
-    background-color: darkslategray;
+    background-color: dimgray;
     color: white;
     font-weight: bold;
     text-align: center;

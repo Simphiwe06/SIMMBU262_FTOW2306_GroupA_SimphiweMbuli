@@ -1,12 +1,12 @@
 .hero {
-    background-image: url(simphiwe-mbuli.jpg);
+    background-image: url(./Images/laptop-sized.jpg);
     background-repeat: repeat;
     background-position: center center;
-    background-color: rosybrown;
+    background-color: rgb(122, 113, 113);
 }
 
 .hero-content {
-    height: 80vh; /* Set the hero content height to fill the viewport */
+    height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,15 +15,15 @@
 }
 
 hero-content header {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
 }
 
 .hero-content h2 {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: normal;
 }
